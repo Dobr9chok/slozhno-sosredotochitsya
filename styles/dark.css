@@ -4,7 +4,6 @@
   переключая тему
 */
 :root.theme_dark {
-  --main-family: "IBM Plex Mono";
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
