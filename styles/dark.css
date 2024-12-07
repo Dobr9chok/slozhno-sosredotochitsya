@@ -1,0 +1,28 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+:root.theme_dark {
+  --main-family: "IBM Plex Mono";
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #db00ff;
+  --front-color:#FF0070;
+  --back-color: #FF0070;
+  --shadow-box: rgba(255, 0, 112, 0.4);
+  background-image: url(../images/cover-image-dark.png);
+}
+
+.page.theme_dark {
+  --main-family: "IBM Plex Mono";
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #db00ff;
+  --front-color:#FF0070;
+  --back-color: #FF0070;
+  --shadow-box: rgba(255, 0, 112, 0.4);
+  background-image: url(../images/cover-image-dark.png);
+}
