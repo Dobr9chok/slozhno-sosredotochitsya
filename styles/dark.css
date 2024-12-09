@@ -1,0 +1,24 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+.page.theme_dark {
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #db00ff;
+  --front-color:#FF0070;
+  --back-color: #FF0070;
+  --shadow-box: rgba(255, 0, 112, 0.4);
+  --color: #000028;
+  background-image: url(../images/cover-image-dark.png);
+}
+
+.page.theme_dark .decoration {
+  display: flex;
+}
+
+.page.theme_dark .decoration::after {
+  display: flex;
+}
